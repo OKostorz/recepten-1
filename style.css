@@ -6,17 +6,17 @@
 }
 
 body {
-    width: 800px;
     margin: 0 auto;
-    
     background-image: url(jpg/bg1.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
 }
+header, section {
+    width: 800px;
+    margin: 0 auto;
+}
 
 #logo h1 {
-    display: block;
-    
     letter-spacing: -3px;
     text-transform: lowercase;
     font-size: 3em;
@@ -36,10 +36,21 @@ body {
     padding: 0 25px;
 }
 
+#logo1 p {
+    display: inline-block;
+    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 10px;
+    
+    padding: 0 8px;
+}
+
 .dropbtn {
     background-color: transparent;
     color: black;
     
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
@@ -85,11 +96,65 @@ body {
 #title p {
     position: relative;
     
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     font-family: 'Pacifico', cursive;
     
-    top: 170px;
+    top: 150px;
 }
 
+#ft1 {
+    width: 400px;
+    float: left;
+}
 
+#ft2 {
+    width: 400px;
+    float: right;
+}
+
+#golabek {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#golabek1 {
+    width: 95%;
+    margin-top: 20px;
+}
+#transparent, #transparent1 {
+    width: 800px;
+    padding-bottom: 15px;
+    background-color: rgba(244, 244, 244, 0.6);
+}
+
+#about p {
+    margin: 0 auto;
+    width: 650px;
+    margin-top: 10px;
+}
+
+#about h3 {
+    margin-top: 50px;
+    padding-top: 10px;
+
+}
+
+#ingr {
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    padding: 10px 40px;
+}
+
+#stappen {
+    margin: 0 auto;
+    margin-top: 60px;
+    
+    padding: 0 40px;
+}
+
+ ol li {
+    padding: 5px;
+}
